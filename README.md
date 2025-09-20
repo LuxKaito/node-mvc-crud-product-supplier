@@ -136,7 +136,7 @@ If you encounter any issues or have questions, please create an issue on GitHub 
 
 ---
 
-> ⭐ **If you find this project useful, please give it a star!**
+⭐ **If you find this project useful, please give it a star!**
 
 ---
 
