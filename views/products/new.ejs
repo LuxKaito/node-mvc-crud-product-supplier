@@ -1,7 +1,7 @@
-<%- include('../partials/header') %>
+<%- include('../partials/header', { title: 'Thêm sản phẩm mới', currentPage: 'products' }) %>
 
-<h1>Add New Product</h1>
-
+<div class="container-fluid">
+    <div class="row justify-content-center">
 <form action="/products" method="POST">
     <div class="mb-3">
         <label for="name" class="form-label">Name</label>
