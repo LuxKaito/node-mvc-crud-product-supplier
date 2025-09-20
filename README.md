@@ -38,7 +38,7 @@ A full-featured CRUD web application for managing suppliers and products, built 
 
 ## 🖥️ System Requirements
 
-- **Node.js** (v14 or higher)
+- **Node.js** (v22 or higher)
 - **MongoDB** (running locally or on cloud)
 - **Git**
 
