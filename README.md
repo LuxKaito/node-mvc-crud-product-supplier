@@ -2,9 +2,9 @@
 
 A full-featured CRUD web application for managing suppliers and products, built with Node.js, Express, MongoDB, and Mongoose using the MVC architecture.
 
-![Node.js](https://img.shields.io/badge/Node.js-14%2B-green?logo=node.js)
-![Express](https://img.shields.io/badge/Express-4.x-blue?logo=express)
-![MongoDB](https://img.shields.io/badge/MongoDB-6.x-brightgreen?logo=mongodb)
+![Node.js](https://img.shields.io/badge/Node.js-22%2B-green?logo=node.js)
+![Express](https://img.shields.io/badge/Express-5.x-blue?logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-8.x-brightgreen?logo=mongodb)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ---
