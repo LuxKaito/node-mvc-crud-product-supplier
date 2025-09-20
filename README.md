@@ -13,7 +13,9 @@ A full-featured CRUD web application for managing suppliers and products, built 
 
 - [✨ Features](#features)
 - [🖥️ System Requirements](#system-requirements)
+- [🛠️ Technologies Used](#technologies-used)
 - [📁 Project Structure](#project-structure)
+- [📡 API Endpoints](#api-endpoints)
 - [⚡ Installation](#installation)
 - [⚙️ Configuration](#configuration)
 - [🚀 Usage](#usage)
@@ -39,6 +41,18 @@ A full-featured CRUD web application for managing suppliers and products, built 
 - **Node.js** (v14 or higher)
 - **MongoDB** (running locally or on cloud)
 - **Git**
+
+---
+
+## 🛠️ Technologies Used
+
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB with Mongoose ODM
+- **Template Engine**: EJS
+- **Frontend**: Bootstrap 5, HTML5, CSS3
+- **Middleware**: body-parser, method-override
+- **Environment**: dotenv
+- **Development**: nodemon
 
 ---
 
@@ -78,9 +92,34 @@ node-mvc-crud-product-supplier/
 
 ---
 
+## 📡 API Endpoints
+
+### Supplier Routes
+
+- `GET /suppliers` - List all suppliers
+- `GET /suppliers/new` - Show create supplier form
+- `POST /suppliers/new` - Create new supplier
+- `GET /suppliers/:id` - Show supplier details
+- `GET /suppliers/:id/edit` - Show edit supplier form
+- `POST /suppliers/:id/edit` - Update supplier
+- `GET /suppliers/:id/delete` - Delete supplier
+
+### Product Routes
+
+- `GET /products` - List all products
+- `GET /products/new` - Show create product form
+- `POST /products/new` - Create new product
+- `GET /products/:id` - Show product details
+- `GET /products/:id/edit` - Show edit product form
+- `POST /products/:id/edit` - Update product
+- `GET/POST /products/:id/delete` - Delete product
+
+---
+
 ## ⚡ Installation
 
 1. **Clone the repository**
+
    ```sh
    git clone https://github.com/yourusername/node-mvc-crud-product-supplier.git
    cd node-mvc-crud-product-supplier
